@@ -285,7 +285,6 @@ body{
   align-items: center;
   justify-content: space-between;
   height: 70px;
-  padding: 0 100px;
   background: #111;
 }
 
@@ -294,8 +293,9 @@ body{
 .copyright {
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  
+  justify-content: center;
+  width: 70%;
+  height: 100%;
 }
 
 .copyright img{
@@ -305,8 +305,8 @@ body{
 .copyright p{
   font-weight: 100;
   color: #888;
-  margin: 0 20px;
-  font-size: 14px;
+  margin: 0 10px;
+  font-size: 10px;
 }
 
 .socials {
@@ -314,6 +314,8 @@ body{
   align-items: center;
   justify-content: center;
   color: #fff;
+  width: 30%;
+  height: 100%;
 }
 
 .socials a {
