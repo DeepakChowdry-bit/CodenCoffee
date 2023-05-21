@@ -217,66 +217,19 @@ body{
   .buttons a:nth-child(1){
     display: none;
   }
-}
+  
+  .footer{
+    padding: 0;
+  }
 
-/* playlists */
-/* 
-.playlist {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-}
+  .copyright{
+    justify-content: center;
+  }
 
-.playlist .title h2 {
-  letter-spacing: 3px;
-  color: #222;
+  .socials{
+    justify-content: center;
+  }
 }
-
-.playlist .items {
-  display: flex;
-  justify-content: space-evenly;
-  flex-wrap: wrap;
-  width: 60%;
-}
-
-.playlist .items .card {
-  margin: 20px;
-  cursor: pointer;
-  background: #222;
-  padding: 20px;
-  border-radius: 20px;
-  color: #fff;
-  height: 50%;
-}
-
-.card img {
-  width: 100%;
-  height: 85%;
-  border-radius: 15px;
-}
-
-.card button {
-  background: #fff;
-  width: 100%;
-  height: 40px;
-  margin: 20px 0;
-  border-radius: 20px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #111;
-}
-
-.card button a {
-  color: #111;
-  font-weight: 700;
-  font-size: 16px;
-  text-decoration: none;
-  margin: 0 5px;
-  width: 100%;
-} */
 
 /* Footer */
 
@@ -286,6 +239,7 @@ body{
   justify-content: space-between;
   height: 70px;
   background: #111;
+  padding: 0 80px;
 }
 
 
@@ -293,7 +247,7 @@ body{
 .copyright {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   width: 70%;
   height: 100%;
 }
@@ -312,7 +266,7 @@ body{
 .socials {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: start;
   color: #fff;
   width: 30%;
   height: 100%;
