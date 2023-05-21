@@ -217,18 +217,6 @@ body{
   .buttons a:nth-child(1){
     display: none;
   }
-  
-  .footer{
-    padding: 0;
-  }
-
-  .copyright{
-    justify-content: center;
-  }
-
-  .socials{
-    justify-content: center;
-  }
 }
 
 /* Footer */
@@ -246,7 +234,7 @@ body{
 .copyright {
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: center;
   width: 70%;
   height: 100%;
 }
@@ -265,7 +253,7 @@ body{
 .socials {
   display: flex;
   align-items: center;
-  justify-content: start;
+  justify-content: center;
   color: #fff;
   width: 30%;
   height: 100%;
