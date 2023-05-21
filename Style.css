@@ -172,6 +172,7 @@ body{
     padding: 80px 50px;
     transition: top 1s;
     border: none;
+    z-index: 1;
   }
 
   .nav a{
